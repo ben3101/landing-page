@@ -1,0 +1,146 @@
+body{
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin: 0;
+}
+
+.main-container{
+    display:flex;
+    flex-direction:column;
+}
+
+
+
+/*"content" divs - used to set margins for each div*/
+.headercontent{
+    margin: 0 15% 0 15%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    background-color: #1F2937;
+}
+.container1content{
+    margin: 5% 15% 5% 15%;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.container2content{
+    margin: 3% 20% 5% 20%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.container3content{
+    margin: 5% 25% 5% 25%;
+    background-color: #E5E7EB;
+}
+.container4content{
+    border-radius: 5px;
+    margin: 5% 15% 5% 15%;
+    padding:40px;
+    background-color: #3882F6;
+}
+.container5content{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size:12px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+
+
+/*header*/
+.header{
+    background-color: #1F2937;
+}
+
+.hlogo{
+    justify-self:start;
+    color:#F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+.links{
+    justify-self:end;
+    display: flex;
+    flex-direction: row;
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+/*container1 - "This website is awesome"*/
+
+.container1{
+    background-color: #1F2937;
+}
+h1{
+    font-size:48px;
+    font-weight: bolder;
+}
+.button{
+    border-radius:5px;
+    font-size: 12px;
+}
+#top-btn{
+    color:white;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    border:0.5%;
+    border-color:#1F2937
+}
+
+img{
+    width:100%;
+    height:100%;
+}
+
+/*container 2 - "Some random information"*/
+
+.container2{
+
+}
+.boxes{
+    display:flex;
+    flex-direction: row;
+    
+}
+.box img{
+    height: auto;
+    width: 100px;
+}
+
+/*container 3 - "quote"*/
+.container3{
+    background-color: #E5E7EB;
+}
+
+/*container 4 - "Call to action!"*/
+
+.container4{
+    background-color: white;
+    color: white;
+    align-items: center;
+    justify-items: center;
+}
+
+#call-to-action-btn{
+    color:white;
+    background-color: #3882F6;
+    border:0.5%;
+    border-color:white;
+}
+
+/*container 5 - "copyright"*/
+.container5{
+    background-color: #1F2937;
+}
