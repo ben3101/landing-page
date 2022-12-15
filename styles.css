@@ -42,10 +42,17 @@ body{
     background-color: #E5E7EB;
 }
 .container4content{
+    display:flex;
     border-radius: 5px;
     margin: 5% 15% 5% 15%;
-    padding:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left:40px;
+    padding-right:40px;
     background-color: #3882F6;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
 }
 .container5content{
     background-color: #1F2937;
@@ -75,6 +82,7 @@ body{
     display: flex;
     flex-direction: row;
     color:#E5E7EB;
+    gap:20px;
     font-size: 18px;
 }
 
@@ -86,6 +94,10 @@ body{
 h1{
     font-size:48px;
     font-weight: bolder;
+}
+.text-div p, h1{
+    margin-block-start: 0;
+    margin-block-end: 0;
 }
 .button{
     border-radius:5px;
@@ -106,22 +118,42 @@ img{
 
 /*container 2 - "Some random information"*/
 
-.container2{
-
+.container2 h1{
+    margin-top:20px;
+    margin-bottom: 20px;
 }
 .boxes{
     display:flex;
     flex-direction: row;
-    
+    gap:30px;
+}
+.boxtext{
+    color:#1F2937;
+    font-size: 18px;
+    text-align: center;
 }
 .box img{
     height: auto;
-    width: 100px;
+    width: 100%;
+    border-radius: 7.5px;
 }
 
 /*container 3 - "quote"*/
 .container3{
     background-color: #E5E7EB;
+}
+#quote{
+    font-size: 36px;
+    color:#1F2937;
+    font-style: italic;
+    font-weight: lighter;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
+}
+#quote-source{
+    text-align: end;
+    font-size: 24px;
+    margin-block-start: 0.25em;
 }
 
 /*container 4 - "Call to action!"*/
@@ -131,6 +163,19 @@ img{
     color: white;
     align-items: center;
     justify-items: center;
+    justify-content: space-between;
+}
+
+.cta-btn-div{
+    display:flex;
+    align-self: center;
+    justify-self: center;
+}
+
+#call-to-action-p{
+    font-size:20px;
+    margin-block-start: 0.25em;
+    margin-block-end: 0.25em;
 }
 
 #call-to-action-btn{
